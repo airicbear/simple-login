@@ -5,7 +5,7 @@
 </head>
 
 <body>
-  <form>
+  <form onsubmit="return false;">
     <input type="text" placeholder="Username" id="username">
     <input type="password" placeholder="Password" id="password">
     <input type="submit" onclick="login(document.getElementById('username').value, document.getElementById('password').value)">
